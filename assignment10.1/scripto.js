@@ -28,10 +28,10 @@ function forLoop() {
 
 
 let person = {              //object
-    name: "Seba ",
+    name: "Seba ",          // object's name
     age: "30 ",
     do: "learning javaScript ",
-    description: function () {
+    description: function () {        // the function starts here and return the whole sentence
         return "This is " + this.name + "he has " + this.age + "and he is " + this.do + "right now."
     }
 
