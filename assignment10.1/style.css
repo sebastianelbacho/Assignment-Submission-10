@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    width: 100vw;
+
+}
+
+
+.title {
+
+
+    width: 80vw;
+    height: 20vh;
+    border-radius: 20px;
+    margin: 20px auto;
+
+
+
+
+
+
+
+}
+
+.bor {
+
+
+    text-align: center;
+    line-height: 20vh;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+
+
+}
+
+
+.line {
+    display: inline-block;
+    position: relative;
+    height: 2px;
+    width: 30em;
+    background: white;
+    left: 25%;
+    bottom: 35%;
+
+
+
+
+}
+
+.line2 {
+    display: block;
+    position: relative;
+    height: 2px;
+    width: 25em;
+    background: white;
+    left: 30%;
+    bottom: 35%;
+
+}
+
+
+.article {
+    width: 70vw;
+    height: 90vh;
+    margin-left: 200px;
+    color: white;
+}
+
+
+.pic {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 5px;
+}
+
+
+/* NOKIA LUMIA MEDIA QUERIES */
+
+@media (orientation: portrait) and (max-width: 320px) {
+
+    .bor {
+        text-align: center;
+        line-height: 20vh;
+        font-size: 2rem;
+        text-transform: uppercase;
+
+
+    }
+
+    .line {
+        display: inline-block;
+        position: relative;
+        height: 2px;
+        width: 80%;
+        background: white;
+        left: 10%;
+        bottom: 45%;
+
+    }
+
+    .line2 {
+        display: block;
+        position: relative;
+        height: 2px;
+        width: 60%;
+        background: white;
+        left: 20%;
+        bottom: 45%;
+
+    }
+
+    .article {
+        width: 50%;
+        height: 90vh;
+        margin-left: 90px;
+        color: white;
+    }
+
+
+    .pic {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 5px;
+    }
+
+     div.one {
+         display: flex; 
+        justify-content: center;
+        margin-top: 10px;
+    
+    } 
+
+    .btn {
+
+        text-transform: uppercase;
+        font-size: 5px;
+        padding: 15px 40px;
+        border-style: none;
+        background-color: rgb(218, 86, 86);
+        border-radius: 30px;
+        font-family: arial;
+        box-shadow: 0 0 0 3px rgba(16, 16, 16, 1), 0 0 0 12px rgb(218, 86, 86);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        box-shadow: 0 0 0 10px black, 0 0 0 18px rgb(218, 86, 86)
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media (orientation: landscape) and (max-width: 533px) {
+
+    .bor {
+        text-align: center;
+        line-height: 20vh;
+        font-size: 3rem;
+        text-transform: uppercase;
+
+
+    }
+
+    .line {
+        display: inline-block;
+        position: relative;
+        height: 2px;
+        width: 80%;
+        background: white;
+        left: 10%;
+        bottom: 35%;
+
+    }
+
+    .line2 {
+        display: block;
+        position: relative;
+        height: 2px;
+        width: 60%;
+        background: white;
+        left: 20%;
+        bottom: 30%;
+
+    }
+
+    .article {
+        width: 70%;
+        height: 90vh;
+        margin-left: 90px;
+        color: white;
+    }
+
+
+    .pic {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 5px;
+    }
+
+    .btn {
+
+        text-transform: uppercase;
+        font-size: 1px;
+        padding: 15px 40px;
+        border-style: none;
+        background-color: rgb(218, 86, 86);
+        border-radius: 30px;
+        font-family: arial;
+        box-shadow: 0 0 0 3px rgba(16, 16, 16, 1), 0 0 0 12px rgb(218, 86, 86);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+}
+
+
+
+
+
+
+
+/* button */
+
+
+div.one {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+
+div.two {
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+
+.person {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.three {
+    text-transform: uppercase;
+}
+
+
+
+
+.btn {
+
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 15px 40px;
+    border-style: none;
+    background-color: rgb(218, 86, 86);
+    border-radius: 40px;
+    font-family: arial;
+    box-shadow: 0 0 0 3px rgba(16, 16, 16, 1), 0 0 0 12px rgb(218, 86, 86);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+
+    .btn:hover {
+        box-shadow: 0 0 0 10px black, 0 0 0 18px rgb(218, 86, 86)
+    }
